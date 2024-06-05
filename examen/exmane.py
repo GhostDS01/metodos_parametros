@@ -9,7 +9,7 @@ while True:
     if numero.lower == 'no':
         break 
 
-    suma = numero # el error esta aqui
+    suma += float(numero) # el error esta aqui
     contador += 1
 
 
