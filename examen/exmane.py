@@ -6,7 +6,7 @@ contador = 0
 while True:
     numero = input("Ingrese las notas de las cuales desea saber el promedio ('no' para finalizar la lista): ")
 
-    if numero.lower == 'no':
+    if numero.lower() == 'no':
         break 
 
     suma += float(numero) # el error esta aqui
